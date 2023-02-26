@@ -1,5 +1,8 @@
 import Layout from './Layout';
 import '@/styles/globals.css'
+import '../styles/normalize.css';
+import '../styles/main.css';
+
 import 'tailwindcss/tailwind.css'
 import { SSRProvider } from 'react-bootstrap';
 import NextNProgress from 'nextjs-progressbar';
